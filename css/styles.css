@@ -1,0 +1,43 @@
+header {
+  background-color: darkgreen;
+  color: antiquewhite;
+}
+.body__main {
+  background-color: chocolate;
+  color: darkred;
+  font-size: 30px;
+  height: 100vh;
+}
+.body__footer {
+  background-color: darkcyan;
+  color: #6e037c;
+  font-size: 45px;
+}
+.body__main__lista1 {
+  background-color: black;
+  font-size: 50px;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+.ul1 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.body__main__lista2 {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.ol1 {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
